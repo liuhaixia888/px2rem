@@ -5,9 +5,9 @@ npm install -g convert-px2rem
 ```
 
 ```
-uz -V
+px2rem -V
 ```
 
 ```
-uz -h
+px2rem -h
 ```
