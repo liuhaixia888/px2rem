@@ -1,17 +1,17 @@
 {
-  "name": "convert-px2rem",
-  "version": "1.0.1",
+  "name": "px2rem",
+  "version": "1.0.2",
   "description": "provide px/rem conversion tool",
   "main": "px2rem.js",
   "scripts": {
-    "test": "convert x.css x2.css -px 100"
+    "test": "px2rem x.css x2.css -px 100"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/liuhaixia888/px2rem.git"
   },
   "keywords": [
-    "convert",
+    "px2rem",
     "rem",
     "px"
   ],
