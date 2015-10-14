@@ -1,6 +1,6 @@
 {
   "name": "convert-px2rem",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "provide px/rem conversion tool",
   "main": "px2rem.js",
   "bin": {
