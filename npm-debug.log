@@ -36,9 +36,9 @@
 17 silly publish   homepage: 'https://github.com/liuhaixia888/px2rem#readme',
 17 silly publish   readme: '#px/rem相互转换工具\n\n```\nnpm install -g convert-px2rem\n```\n\n```\nuz -V\n```\n\n```\nuz -h\n```',
 17 silly publish   readmeFilename: 'README.md',
-17 silly publish   gitHead: '9aeb04e77c6a4e7c8e00e2e668a425a5c72e7f64',
+17 silly publish   gitHead: '2e2f6fc13e23e62054b25f5564c26c8ecb2823e6',
 17 silly publish   _id: 'px2rem@1.0.3',
-17 silly publish   _shasum: 'c40ad642ab33f3f65c79283a2c6bf48460bd9465',
+17 silly publish   _shasum: '648ce28edbb62fb83f0d14bb7de4378acad536c0',
 17 silly publish   _from: '.' }
 18 verbose getPublishConfig undefined
 19 silly mapToRegistry name px2rem
@@ -49,22 +49,22 @@
 24 silly publish uploading /Users/haixialiu/.npm/px2rem/1.0.3/package.tgz
 25 verbose request uri https://registry.npmjs.org/px2rem
 26 verbose request sending authorization for write operation
-27 info attempt registry request try #1 at 17:58:15
+27 info attempt registry request try #1 at 18:11:11
 28 verbose request using bearer token for auth
-29 verbose request id 24685eb120988abe
+29 verbose request id 6c6362a5be5d1568
 30 http request PUT https://registry.npmjs.org/px2rem
 31 http 403 https://registry.npmjs.org/px2rem
 32 verbose headers { 'content-type': 'application/json',
 32 verbose headers   'cache-control': 'max-age=60',
 32 verbose headers   'content-length': '98',
 32 verbose headers   'accept-ranges': 'bytes',
-32 verbose headers   date: 'Wed, 14 Oct 2015 09:58:18 GMT',
+32 verbose headers   date: 'Wed, 14 Oct 2015 10:11:12 GMT',
 32 verbose headers   via: '1.1 varnish',
 32 verbose headers   connection: 'close',
-32 verbose headers   'x-served-by': 'cache-hkg6822-HKG',
+32 verbose headers   'x-served-by': 'cache-hkg6824-HKG',
 32 verbose headers   'x-cache': 'MISS',
 32 verbose headers   'x-cache-hits': '0',
-32 verbose headers   'x-timer': 'S1444816697.401754,VS0,VE653' }
+32 verbose headers   'x-timer': 'S1444817471.993852,VS0,VE685' }
 33 verbose request invalidating /Users/haixialiu/.npm/registry.npmjs.org/px2rem on PUT
 34 error publish Failed PUT 403
 35 verbose stack Error: You do not have permission to publish 'px2rem'. Are you logged in as the correct user? : px2rem

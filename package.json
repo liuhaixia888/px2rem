@@ -1,5 +1,5 @@
 {
-  "name": "px2rem",
+  "name": "convert-px2rem",
   "version": "1.0.3",
   "description": "provide px/rem conversion tool",
   "main": "px2rem.js",
@@ -11,7 +11,7 @@
     "url": "https://github.com/liuhaixia888/px2rem.git"
   },
   "keywords": [
-    "px2rem",
+    "convert",
     "rem",
     "px"
   ],
