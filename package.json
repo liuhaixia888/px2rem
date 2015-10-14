@@ -3,6 +3,9 @@
   "version": "1.0.3",
   "description": "provide px/rem conversion tool",
   "main": "px2rem.js",
+  "bin": {
+    "px2rem": "./bin/px2rem"
+  },  
   "scripts": {
     "test": "px2rem x.css x2.css -px 100"
   },
