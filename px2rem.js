@@ -11,6 +11,13 @@ var patREM = /\d{1,}(.)\d{1,}rem/gi;
 var cons = argv[3] || 100;
 var result = '';
 
+// 命令执行入口
+this.run = function(argv){
+    argv.length === 2 ? argv.push('--help') : argv;
+    commander.parse(argv)
+    return this;
+}
+
 commander
 	.version(require('./package.json').version)
 	.option('-rem', '页面中所有的px转化为rem')
