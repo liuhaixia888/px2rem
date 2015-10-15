@@ -18,7 +18,7 @@ this.run = function(argv){
 }
 
 commander
-	.version('1.0.0')
+	.version(require('./package.json').version)
 	.option('-rem', '页面中所有的px转化为rem')
 	.option('-px', '页面中所有的rem转化为px')
 	.parse(process.argv);
