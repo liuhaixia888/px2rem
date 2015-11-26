@@ -61,7 +61,7 @@ if(unit == '-px'){
 	readWriteFile(function(data){
 		result = data.replace(patREM,function(num){
             var num = num.replace('rem', '');
-            var val = num*cons;
+            var val = parseInt(num*cons);
             return val + 'px';
         })
 	});
